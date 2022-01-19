@@ -6,11 +6,28 @@ body{
     background-attachment: fixed;
 }
 
+.header__contact-container{
+    display: none;
+}
+
 p{
     
     line-height: 1.5rem;
     
 }
+
+.print{
+    display: none;
+}
+
+.site{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(148 148 148 / 1%);
+    text-transform: uppercase;
+}
+
 
 .one-formation__name{
     font-size: 1.1rem;
@@ -93,11 +110,11 @@ p{
 }
 
 .header-skills__container {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(148 148 148 / 1%);
-    text-transform: uppercase;
+    /* flex-wrap: wrap; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* background-color: rgb(148 148 148 / 1%); */
+    /* text-transform: uppercase; */
 }
 
 .header__name {

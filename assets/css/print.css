@@ -9,7 +9,20 @@ body{
 }
 
 p {
+    font-size: 0.9rem;
     line-height: 1.2rem;
+}
+
+.print{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(148 148 148 / 1%);
+    text-transform: uppercase;
+}
+
+.site{
+    display: none;
 }
 
 .container {
@@ -20,12 +33,38 @@ p {
     display: none;
 }
 
+.header__img {
+    order: 1;
+}
+
+.header__contact-container{
+    display: block;
+    padding: 5px;
+}
+
+.header__contact-label{
+    line-height: 1.5rem;
+}
+
 .header-container {
     min-height: auto;
 }
 
+.header__name {
+    display: none;
+}
+
+.header__subtitle{
+    margin: 0.5rem 0;
+}
+
 .header__img {
     max-width: 19%;
+    margin: 5px 25px;
+}
+
+.header__title{
+    font-size: 1.7rem;
 }
 
 .header-skills__container {
@@ -33,7 +72,7 @@ p {
 }
 
 .header-skill{
-    padding: 1.3rem;
+    padding: 1rem;
     font-size: 1rem;
 }
 
@@ -47,11 +86,15 @@ p {
     font-weight: 100;
 }
 
+.header-situation__label{
+    display: none;
+}
+
 .carrer-container {
     background-color: white;
     border-top: rgba(240, 248, 255, 0.527) dotted 3px;
     margin: 20px 0;
-    padding: none;
+    padding: 0;
 }
 
 .section-container {
@@ -62,7 +105,7 @@ p {
     font-size: 1.7rem;
     font-style: oblique;
     font-weight: lighter;
-    margin: 25px 0 15px;
+    margin: 15px 0 15px;
 }
 
 .formation-container {
