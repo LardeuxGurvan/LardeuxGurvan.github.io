@@ -1,0 +1,70 @@
+/* Print Version */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(32, 32, 32, 0.842);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+
+}
+
+p {
+    line-height: 1.2rem;
+}
+
+.container {
+    background-color: white;
+}
+
+.navBar-container {
+    display: none;
+}
+
+.header-container {
+    min-height: auto;
+}
+
+.header__img {
+    max-width: 19%;
+}
+
+.header-skills__container {
+    background-color: none;
+}
+
+.header-skill{
+    padding: 1.3rem;
+    font-size: 1rem;
+}
+
+.header-skills__img {
+    max-width: 45px;
+}
+
+.header-situation__label {
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.carrer-container {
+    background-color: white;
+    border-top: rgba(240, 248, 255, 0.527) dotted 3px;
+    margin: 20px 0;
+    padding: none;
+}
+
+.section-container {
+    max-width: 46%;
+}
+
+.title {
+    font-size: 1.7rem;
+    font-style: oblique;
+    font-weight: lighter;
+    margin: 25px 0 15px;
+}
+
+.formation-container {
+    border-right: inset;
+}
