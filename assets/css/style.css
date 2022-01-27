@@ -6,11 +6,28 @@ body{
     background-attachment: fixed;
 }
 
+.header__contact-container{
+    display: none;
+}
+
 p{
-    
+    color: rgb(71, 71, 71);
     line-height: 1.5rem;
     
 }
+
+.print{
+    display: none;
+}
+
+.site{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(148 148 148 / 1%);
+    text-transform: uppercase;
+}
+
 
 .one-formation__name{
     font-size: 1.1rem;
@@ -18,6 +35,7 @@ p{
 
 .one-formation__description{
     font-size: 1.1rem;
+    color: rgba(32, 32, 32, 0.842);
     
 }
 .header-situation__container{
@@ -92,17 +110,17 @@ p{
     align-items: center;
 }
 
-.header-skills__container {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(148 148 148 / 1%);
-    text-transform: uppercase;
-}
+/* .header-skills__container { */
+    /* flex-wrap: wrap; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* background-color: rgb(148 148 148 / 1%); */
+    /* text-transform: uppercase; */
+/* } */
 
 .header__name {
     font-size: 1.3rem;
-    margin: 2rem;
+    margin: 2rem 2rem 0;
 }
 
 .header-skill{
@@ -135,7 +153,7 @@ p{
 .header__title{
     font-weight: bold;
     font-size: 2.5rem;
-    margin-left: 2rem;
+    margin:2rem 0 0 2rem;
 }
 
 .header__subtitle{
@@ -186,4 +204,48 @@ p{
     margin: 15px 0 5px;
     display: flex;
     align-items: center;
+}
+
+.skills-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.skills__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 3px rgba(228, 242, 255, 0.836);
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(249, 249, 255);
+    box-shadow: 5px 4px 11px -3px rgba(0,0,0,0.47);
+}
+
+.skills__img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    border-right: cornsilk solid 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+li {
+    list-style-position: inside;
+    list-style-type: circle;
+    line-height: 1.3rem;
+    color: rgb(73, 73, 73);
+}
+
+.dev-title{
+text-align: center;
+}
+
+
+.dev-container{
+    border-top: rgba(240, 248, 255, 0.527) dotted 3px;
 }

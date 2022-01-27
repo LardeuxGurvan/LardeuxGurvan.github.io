@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" media="print" href="./assets/css/print.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -26,27 +27,51 @@
         </nav>
         <header class="header-container">
             <div class="header__img-container">
+                <div class="header__contact-container">
+                    <p class="header__contact-label">Gurvan Lardeux</p>
+                    <p class="header__contact-label">+33 6 37 15 80 03</p>
+                    <p class="header__contact-label">gurvan.lardeux@gmail.com</p>
+                    <p class="header__contact-label">29000, Quimper</p>
+                    <p class="header__contact-label">https://lardeuxgurvan.github.io/</p>
+                </div>
                 <div class="header__title-container animate__animated animate__backInLeft">
                     <h3 class="header__name">Bonjour, Je suis Gurvan Lardeux</h3>
                     <h1 class="header__title">Developpeur Web Full Stack</h1>
                     <h2 class="header__subtitle">Javascript, Spécialisation Data/API</h2>
                 </div>
-                <img class="header__img" src="https://cdn3.iconfinder.com/data/icons/web-and-seo-11-1/65/549-512.png"
-                    alt="">
+                <!-- <img class="header__img" src="https://cdn3.iconfinder.com/data/icons/web-and-seo-11-1/65/549-512.png" -->
+                <!-- alt=""> -->
+                <img class="header__img" src="./img/4.jpg" alt="picture of Gurvan Lardeux">
+                <div class="header-skills__container print">
+                    <div class="header-skill header-skills__front-end">
+                        <img class="header-skills__img"
+                            src="https://img.icons8.com/ios/100/000000/javascript--v2.png" />
+                        front-end
+                    </div>
+                    <div class="header-skill header-skills__back-end">
+                        <img class="header-skills__img" src="https://img.icons8.com/fluency/96/000000/backend-development.png" />
+                        back-end
+                    </div>
+                    <!-- <div class="header-skill header-skills__responsive"> -->
+                    <!-- <img src="https://img.icons8.com/offices/80/000000/media-queries.png"/> -->
+                    <!-- responsive -->
+                    <!-- </div> -->
+                    <div class="header-skill header-skills__english">
+                        <img class="header-skills__img"
+                            src="https://img.icons8.com/ios-filled/100/000000/geography.png" />
+                        anglais
+                    </div>
+                </div>
             </div>
-            <div class="header-skills__container">
+            <div class="header-skills__container site">
                 <div class="header-skill header-skills__front-end">
                     <img class="header-skills__img" src="https://img.icons8.com/ios/100/000000/javascript--v2.png" />
                     front-end
                 </div>
                 <div class="header-skill header-skills__back-end">
-                    <img class="header-skills__img" src="https://img.icons8.com/fluency/96/000000/node-js.png" />
+                    <img class="header-skills__img" src="https://img.icons8.com/fluency/96/000000/backend-development.png" />
                     back-end
                 </div>
-                <!-- <div class="header-skill header-skills__responsive"> -->
-                <!-- <img src="https://img.icons8.com/offices/80/000000/media-queries.png"/> -->
-                <!-- responsive -->
-                <!-- </div> -->
                 <div class="header-skill header-skills__english">
                     <img class="header-skills__img" src="https://img.icons8.com/ios-filled/100/000000/geography.png" />
                     anglais
@@ -67,7 +92,7 @@
                                 <h3 class="one-formation__name">O'clock</h3>
                                 <i class="date">- Septembre 2021</i>
                             </div>
-                            <p class="one-formation__description">formation en téléprésentiel labelisée grande école</p>
+                            <p class="one-formation__description">Formation en téléprésentiel labelisée grande école</p>
                             <p>- socle HTML5/CSS/Javascript</p>
                             <p>- Spécialisation API/Data</p>
                         </div>
@@ -85,7 +110,7 @@
                         <div class="one-Experience__container">
                             <div class="expericence-title-container">
                                 <h3 class="one-Experience__name">Développeur Web - O'clock</h3>
-                                <i class="date">- Mars 2022</i>
+                                <i class="date">- 2022</i>
                             </div>
                             <p class="one-experience__list">- Développement Back end d'une application Web</p>
                             <p class="one-experience__list">- Equipe de 4 développeurs</p>
@@ -100,7 +125,7 @@
                             <p class="one-experience__list">- Vidéo et clips musicaux</p>
                             <p class="one-experience__list">- Composition, enregistrement, mixage/mastering</p>
                             <p class="one-experience__list">- Realisation de musiques de commandes ou personnelles et
-                                de 4 EP/LP sous les format vinyle, CD et cassette</p>
+                                de 4 EP/LP sous les formats vinyle, CD et cassette</p>
                             <p class="one-experience__list">- Sonorisations et plus de 60 concerts en tant que
                                 guitariste</p>
                         </div>
@@ -109,11 +134,63 @@
                                 <h3 class="one-Experience__name">Facteur à la Poste</h3>
                                 <i class="date">- 2018 - 2020</i>
                             </div>
-                            <p class="one-experience__list">- Poste de Pont Croix, Audierne et Quimper</p>
+                            <p class="one-experience__list">- Bureau de Pont Croix, Audierne et Quimper</p>
 
                         </div>
                     </div>
                 </section>
+            </div>
+            <div class="dev-container">
+                <h1 class="dev-title title">Compétences</h1>
+                <div class="skills-main-container">
+                    <article class="skills__container">
+                        <div class="skills__img-container">
+                            <h3 class="skill__title">Intégration</h3>
+                            <img src="https://img.icons8.com/fluency/96/000000/source-code.png" />
+                        </div>
+                        <div class="skills__label-container">
+                            <ul>
+                                <li><strong>HTML5</strong> balises sémantiques</li>
+                                <li>CSS Organisation BEM ou framework classLess</li>
+                                <li>Javascript pour une navigation souple et dynamique</li>
+                                <li>EJS pour générer du html avec JS</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="skills__container">
+                        <div class="skills__img-container">
+                            <h3 class="skill__title">Node.JS</h3>
+                            <img src="https://img.icons8.com/fluency/96/000000/node-js.png" />
+                        </div>
+                        <div class="skills__label-container">
+                            <ul>
+                                <li>Mise en place d' une infrastructure Express</li>
+                                <li>Gestion d'ORM comme Sequelize</li>
+                                <li>Developpement d'API</li>
+                                <li>Gestion des packages npm</li>
+                                <li>Mise en place des variables d'environnement</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="skills__container">
+                        <div class="skills__img-container">
+                            <h3 class="skill__title">Back-end</h3>
+                            <img src="https://img.icons8.com/fluency/96/000000/backend-development.png" />
+                        </div>
+                        <div class="skills__label-container">
+
+                        </div>
+                    </article>
+                    <article class="skills__container">
+                        <div class="skills__img-container">
+                            <h3 class="skill__title">Data</h3>
+                            <img src="https://img.icons8.com/fluency/96/000000/database.png" />
+                        </div>
+                        <div class="skills__label-container">
+
+                        </div>
+                    </article>
+                </div>
             </div>
         </main>
     </div>
