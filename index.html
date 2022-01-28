@@ -14,18 +14,21 @@
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="./assets/js/print.js"></script>
+
+
     <title>Gurvan Lardeux</title>
 </head>
 
 <body>
     <div class="container">
         <nav class="navBar-container">
-            <button class="navBar-button">Home</button>
-            <button class="navBar-button">Experiences</button>
-            <button class="navBar-button">Compétences</button>
-            <button class="navBar-button">Contact</button>
+            <a class="navBar-button" href="#home">Home</a>
+            <button class="navBar-button" onclick="window.location.href='#experiences'">Experiences</button>
+            <button class="navBar-button" onclick="window.location.href='#compétences'">Compétences</button>
+            <button class="navBar-button" onclick="window.location.href='#contact'">Contact</button>
         </nav>
-        <header class="header-container">
+        <header id="home" class="header-container">
             <div class="header__img-container">
                 <div class="header__contact-container">
                     <p class="header__contact-label">Gurvan Lardeux</p>
@@ -49,18 +52,19 @@
                         front-end
                     </div>
                     <div class="header-skill header-skills__back-end">
-                        <img class="header-skills__img" src="https://img.icons8.com/fluency/96/000000/backend-development.png" />
+                        <img class="header-skills__img"
+                            src="https://img.icons8.com/fluency/96/000000/backend-development.png" />
                         back-end
                     </div>
-                    <!-- <div class="header-skill header-skills__responsive"> -->
-                    <!-- <img src="https://img.icons8.com/offices/80/000000/media-queries.png"/> -->
-                    <!-- responsive -->
-                    <!-- </div> -->
-                    <div class="header-skill header-skills__english">
+                    <div class="header-skill header-skills__responsive">
+                        <img src="https://img.icons8.com/offices/80/000000/media-queries.png" />
+                        Responsive
+                    </div>
+                    <!-- <div class="header-skill header-skills__english">
                         <img class="header-skills__img"
                             src="https://img.icons8.com/ios-filled/100/000000/geography.png" />
                         anglais
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="header-skills__container site">
@@ -69,13 +73,18 @@
                     front-end
                 </div>
                 <div class="header-skill header-skills__back-end">
-                    <img class="header-skills__img" src="https://img.icons8.com/fluency/96/000000/backend-development.png" />
+                    <img class="header-skills__img"
+                        src="https://img.icons8.com/fluency/96/000000/backend-development.png" />
                     back-end
                 </div>
-                <div class="header-skill header-skills__english">
+                <div class="header-skill header-skills__responsive">
+                    <img src="https://img.icons8.com/offices/80/000000/media-queries.png" />
+                    Responsive
+                </div>
+                <!-- <div class="header-skill header-skills__english">
                     <img class="header-skills__img" src="https://img.icons8.com/ios-filled/100/000000/geography.png" />
                     anglais
-                </div>
+                </div> -->
             </div>
             <div class="header-situation__container animate__animated animate__backInRight">
                 <h3 class="header-situation__label">Actuellement à la recherche d'un stage dans le finistère pour
@@ -83,7 +92,7 @@
             </div>
         </header>
         <main>
-            <div class="carrer-container">
+            <div class="carrer-container" id="experiences">
                 <section class="formation-container section-container">
                     <h2 class="formation__title-label title">Formation</h2>
                     <div class="formation__inside-container">
@@ -140,7 +149,7 @@
                     </div>
                 </section>
             </div>
-            <div class="dev-container">
+            <div class="dev-container" id="compétences">
                 <h1 class="dev-title title">Compétences</h1>
                 <div class="skills-main-container">
                     <article class="skills__container">
@@ -150,10 +159,10 @@
                         </div>
                         <div class="skills__label-container">
                             <ul>
-                                <li><strong>HTML5</strong> balises sémantiques</li>
-                                <li>CSS Organisation BEM ou framework classLess</li>
-                                <li>Javascript pour une navigation souple et dynamique</li>
-                                <li>EJS pour générer du html avec JS</li>
+                                <li><strong>HTML5</strong> - Utilisation des balises sémantiques pour aider au référencement naturel</li>
+                                <li><strong>CSS</strong> - Organisation du nommage des classes avec méthodologie BEM ou utilisation de frameworks classLess</li>
+                                <li><strong>Javascript</strong> - Pour une navigation souple et dynamique</li>
+                                <li><strong>Views Engine</strong> EJS, Pug ...</li>
                             </ul>
                         </div>
                     </article>
@@ -164,21 +173,12 @@
                         </div>
                         <div class="skills__label-container">
                             <ul>
-                                <li>Mise en place d' une infrastructure Express</li>
-                                <li>Gestion d'ORM comme Sequelize</li>
-                                <li>Developpement d'API</li>
-                                <li>Gestion des packages npm</li>
-                                <li>Mise en place des variables d'environnement</li>
+                                <li><strong>Express</strong> - Utilisation de l'infrastructure express pour creer des applications Web/Web mobile et API</li>
+                                <li><strong>API CRUD</strong></li>
+                                <li><strong>TDD</strong> - Mise en place de tests unitaires</li>
+                                <li><strong>npm</strong> : Gestion de packages</li>
+                                <li><strong>MVC</strong> - Mise en place d'architectures Model-View-Controller</li>
                             </ul>
-                        </div>
-                    </article>
-                    <article class="skills__container">
-                        <div class="skills__img-container">
-                            <h3 class="skill__title">Back-end</h3>
-                            <img src="https://img.icons8.com/fluency/96/000000/backend-development.png" />
-                        </div>
-                        <div class="skills__label-container">
-
                         </div>
                     </article>
                     <article class="skills__container">
@@ -187,12 +187,42 @@
                             <img src="https://img.icons8.com/fluency/96/000000/database.png" />
                         </div>
                         <div class="skills__label-container">
-
+                            <ul>
+                                <li><strong>SQL</strong></li>
+                                <li><strong>PostgreSQL, SQLite, MongoDB</strong> - Utilisation de systèmes de gestion de base de données</li>
+                                <li><strong>Datamapper</strong> / <strong>Active Record</strong> - Utilisations de différents patrons de conception suivant le contexte</li>
+                                <li><strong>Sequelize</strong> - Utilisation d'ORM en cas de déploiment rapide de base de donnée</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="skills__container">
+                        <div class="skills__img-container">
+                            <h3 class="skill__title">Environnement</h3>
+                            <img src="https://img.icons8.com/fluency/96/000000/backend-development.png" />
+                        </div>
+                        <div class="skills__label-container">
+                            <li><strong>Visual Studio Code</strong></li>
+                            <li><strong>Linux</strong> / Wndows</li>
+                            <li>Eslint AirBNB</li>
+                            <li>Gestion des variables d'environnement</li>
+                            <li>Maitrise de l'<strong>anglais</strong></li>
                         </div>
                     </article>
                 </div>
             </div>
         </main>
+        <footer class="footer" id="contact">
+            <div class="contact-container">
+                <p class="header__contact-label">Gurvan Lardeux</p>
+                <p class="header__contact-label">+33 6 37 15 80 03</p>
+                <p class="header__contact-label">gurvan.lardeux@gmail.com</p>
+                <p class="header__contact-label">29000, Quimper</p>
+                <p class="header__contact-label">https://lardeuxgurvan.github.io/</p>
+            </div>
+            <div class="fotter__print-container">
+                <button class="footer__print-button" id="print">Enregistrer le CV en PDF / Imprimer</button>
+            </div>
+        </footer>
     </div>
 </body>
 
