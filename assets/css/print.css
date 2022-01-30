@@ -111,3 +111,45 @@ p {
 .formation-container {
     border-right: inset;
 }
+
+.footer{
+    display: none;
+}
+
+.skills-main-container{
+    display: none;
+}
+
+
+.skill__container--print{
+    background-color: gery;
+}
+/* .skills__img-container{
+    width: 35px;
+} */
+
+.skill__img--print{
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.skills__container--print{
+    margin: 15px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid 3px rgba(228, 242, 255, 0.836);
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: rgb(249, 249, 255);
+    box-shadow: 5px 4px 11px -3px rgba(0,0,0,0.47);
+   
+}
+
+li {
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.062);
+    list-style-position: inside;
+    list-style-type: disclosure-closed;
+    line-height: 2rem;
+    color: rgb(73, 73, 73);
+}
