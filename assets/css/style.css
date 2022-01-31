@@ -341,6 +341,10 @@ text-align: center;
 }
 
 @media (max-width: 1200px){
+    body{
+        background-image: none;
+    }
+
     .social-network__container{
         display: none;
     }
@@ -348,6 +352,12 @@ text-align: center;
         margin-top: 1.3rem;
         display: flex;
         justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 375px){
+    .navBar-button{
+        font-size: 0.9rem;
     }
 }
 
